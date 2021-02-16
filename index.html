@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Basic FED Assesment</title>
+    <link rel="stylesheet" type="text/CSS" href="style.css">
+</head>
+<body>
+    <nav class="zone black">
+        <ul class="navmain"> 
+            <li><img src="image/logo.jpg" style="width: 20%;"></li>
+            <li class="push"><button id="myBtn"><img src="image/cart.png" style="width: 100%;"></button></li>
+        </ul>
+    </nav>
+    <div id="myModal" class="modal">
+
+    <div class="modal-content">
+          <span class="close">&times;</span>
+          <ul class="cartContainer" id="modalItems"></ul>
+        </div>
+      
+    </div>
+    <div class="slideContainer">
+        <div class="mySlides">
+            <img src="image/img1.jpg" style="width:100%">
+        </div>
+        <div class="mySlides">
+            <img src="image/img2.jpg" style="width:100%">
+        </div>
+        <div class="mySlides">
+            <img src="image/img3.jpg" style="width:100%">
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div> 
+    <br>
+    <div>
+        <ul class="prodContainer" id="products"></ul>   
+    </div>
+     
+    <script type="text/JavaScript" src="script.js"></script>
+</body>
+</html>
