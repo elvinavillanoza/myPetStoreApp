@@ -86,44 +86,44 @@ window.onclick = function(event) {
 var ul = document.getElementById("products");
 var prods = [ 
     {
-        prodname: "Vans Old Skool", 
-        proddesc: "Black & White",
-        prodprice: "$123",
+        prodname: "Pet One", 
+        proddesc: "adult dog food",
+        prodprice: "$10",
         prodimage: "image/prod1.png"
     },    {
-        prodname: "Vans Old Skool", 
-        proddesc: "Red/Blue Checker", 
-        prodprice: "$124",
+        prodname: "Ultra Protection", 
+        proddesc: "dog pads", 
+        prodprice: "$8",
         prodimage: "image/prod2.png"
     },    {
-        prodname: "Vans Old Skool", 
-        proddesc: "Magnet Bar", 
-        prodprice: "$125",
+        prodname: "Rubber ball", 
+        proddesc: "pet toy", 
+        prodprice: "$2",
         prodimage: "image/prod3.png"
     },    {
-        prodname: "Vans Old Skool", 
-        proddesc: "Red Dahlia", 
-        prodprice: "$126",
+        prodname: "Vitality High Energy", 
+        proddesc: "dog food", 
+        prodprice: "$11",
         prodimage: "image/prod4.png"
     },     {
-        prodname: "Vans Old Skool", 
-        proddesc: "(Skulls) Black & True White",
-        prodprice: "$127",
+        prodname: "Collar", 
+        proddesc: "for dogs",
+        prodprice: "$5",
         prodimage: "image/prod5.png"
     },     {
-        prodname: "Vans Old Skool", 
-        proddesc: "(Camo Floral) Dark Olive", 
-        prodprice: "$128",
+        prodname: "Royal Canin", 
+        proddesc: "cat food(kitten)", 
+        prodprice: "$9",
         prodimage: "image/prod6.png"
     },     {
-        prodname: "Vans Old Skool", 
-        proddesc: "Ultramarine Green", 
-        prodprice: "$129",
+        prodname: "Whiskas", 
+        proddesc: "cat food(kitten)", 
+        prodprice: "$9",
         prodimage: "image/prod7.png"
     },     {
-        prodname: "Vans Old Skool", 
-        proddesc: "Gunmetal Autumn Glaze", 
-        prodprice: "$130",
+        prodname: "Jerhigh DuoStick ", 
+        proddesc: "dog treats", 
+        prodprice: "$6",
         prodimage: "image/prod8.png"
     }
 ]
@@ -164,58 +164,58 @@ var cartAdded = [];
 document.addEventListener("click", function(x){
     if (x.target.id == "button0"){
         cartAdded.push({
-            prodname: "Vans Old Skool", 
-            proddesc: "Black & White",
-            prodprice: "$123",
+            prodname: "Pet One", 
+            proddesc: "adult dog food",
+            prodprice: "$10",
             prodimage: "image/prod1.png"
         })
     } else if (x.target.id == "button1"){
         cartAdded.push({
-            prodname: "Vans Old Skool", 
-            proddesc: "Red/Blue Checker", 
-            prodprice: "$124",
+            prodname: "Ultra Protection", 
+            proddesc: "dog pads", 
+            prodprice: "$8",
             prodimage: "image/prod2.png"
         })
     } else if (x.target.id == "button2"){
         cartAdded.push({
-            prodname: "Vans Old Skool", 
-            proddesc: "Magnet Bar", 
-            prodprice: "$125",
+            prodname: "Rubber ball", 
+            proddesc: "pet toy", 
+            prodprice: "$2",
             prodimage: "image/prod3.png"
         })
     } else if (x.target.id == "button3"){
         cartAdded.push({
-            prodname: "Vans Old Skool", 
-            proddesc: "Red Dahlia", 
-            prodprice: "$126",
+            prodname: "Vitality High Energy", 
+            proddesc: "dog food", 
+            prodprice: "$11",
             prodimage: "image/prod4.png"
         })
     } else if (x.target.id == "button4"){
         cartAdded.push({
-            prodname: "Vans Old Skool", 
-            proddesc: "(Skulls) Black & True White", 
-            prodprice: "$127",
+            prodname: "Collar", 
+            proddesc: "for dogs",
+            prodprice: "$5",
             prodimage: "image/prod5.png"
         })
     } else if (x.target.id == "button5"){
         cartAdded.push({
-            prodname: "Vans Old Skool", 
-            proddesc: "(Camo Floral) Dark Olive", 
-            prodprice: "$128",
+            prodname: "Royal Canin", 
+            proddesc: "cat food(kitten)", 
+            prodprice: "$9",
             prodimage: "image/prod6.png"
         })
     } else if (x.target.id == "button6"){
         cartAdded.push({
-            prodname: "Vans Old Skool", 
-            proddesc: "Ultramarine Green", 
-            prodprice: "$129",
+            prodname: "Whiskas", 
+            proddesc: "cat food(kitten)", 
+            prodprice: "$9",
             prodimage: "image/prod7.png"
         })
     } else if (x.target.id == "button7"){
         cartAdded.push({
-            prodname: "Vans Old Skool", 
-            proddesc: "Gunmetal Autumn Glaze", 
-            prodprice: "$130",
+            prodname: "Jerhigh DuoStick ", 
+            proddesc: "dog treats", 
+            prodprice: "$6",
             prodimage: "image/prod8.png"
         })
     }
