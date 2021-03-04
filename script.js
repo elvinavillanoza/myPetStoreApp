@@ -135,14 +135,17 @@ var prods = [
 for (var i=0; i < prods.length; i++){
     var prod = prods[i]
     var ul1 = document.createElement("ul");
+    ul1.setAttribute("class", "ulProd");
     var li = document.createElement("li");
     li.appendChild(document.createTextNode(prod.prodname));
 
     var li2 = document.createElement("li");
     li2.appendChild(document.createTextNode(prod.prodprice));
+    li2.setAttribute("class", "priceTxt");
 
     var li3 = document.createElement("li");
     li3.appendChild(document.createTextNode(prod.proddesc));
+    
 
     var buy = document.createElement("button");
     var btnTxt = document.createTextNode("Add to cart");
